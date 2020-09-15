@@ -1,0 +1,1 @@
+export const hasLogin = state => state.user.token
