@@ -1,22 +1,10 @@
 # uniapp-vuecli3
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-(需完善mock.config.js dev.config.js 请求前缀才能正常启动)
-npm run mock:mp-weixin 启动mock环境
-npm run dev:mp-weixin 启动dev环境
+## 项目架构图 
+## ![jiagou_chart](https://gitee.com/ttwb/MyPublic/raw/master/img/20200520093802.png)
+> 基于uni-app框架 vue 语法进行研发   
+> 不支持vue-router axios。因此封装了对应的路由拦截、请求处理。 
 
-```
+具体的代码阐述请参考[博文](https://github.com/mominger/blog/issues/28)  
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
